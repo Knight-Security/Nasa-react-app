@@ -4,8 +4,9 @@ export default function Main({ data }) {
       {data?.media_type === "image" ? (
         <img
           className="bgImage"
-          src={data?.hdurl || data?.url}
+          src={data?.url}
           alt={data?.title || "NASA APOD"}
+          loading="lazy"
         />
       ) : (
         <iframe
