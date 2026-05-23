@@ -74,7 +74,7 @@ footer h2 {
 }
 
 footer h1 {
-  font-size: 0.9rem;
+  font-size: 3rem;
   font-weight: 200;
 }
 
@@ -98,9 +98,6 @@ footer button i {
 footer button:hover {
   opacity: 0.7;
 }
-
-/* GRADIENT */
-
 .bgGradient {
   position: absolute;
   inset: 0;
@@ -113,9 +110,6 @@ footer button:hover {
 
   z-index: 1;
 }
-
-/* SIDEBAR */
-
 .sidebar {
   position: fixed;
   inset: 0;
